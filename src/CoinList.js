@@ -27,7 +27,7 @@ export const CoinList = () => {
         .finally(() => {
             setLoading(false);
         });
-        }, [coinsData]);
+        }, []);
         
      //if loading data
    if (loading) return <div>Loading...Please Wait</div>;
